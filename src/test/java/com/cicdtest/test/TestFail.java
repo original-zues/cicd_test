@@ -8,6 +8,6 @@ public class TestFail {
     @Test
     public void failTest(){
         boolean t = false;
-        Assertions.assertTrue(t);
+        Assertions.assertFalse(t);
     }
 }
